@@ -1,4 +1,4 @@
-import { renderTasks } from "./render";
+import { renderTasks } from './render.js';
 
 export const changeTask = (event) => {
   if (event.target.classList.contains('list__item-checkbox')) {

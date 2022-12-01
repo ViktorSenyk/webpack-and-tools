@@ -1,4 +1,4 @@
-import { listElem } from "./elements";
+import { listElem } from './elements.js';
 
 export const renderTasks = () => {
   fetch('https://6384c3013fa7acb14fffc5eb.mockapi.io/tasks')

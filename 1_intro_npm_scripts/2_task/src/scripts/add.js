@@ -1,5 +1,5 @@
-import { inputElem } from "./elements";
-import { renderTasks } from "./render";
+import { inputElem } from './elements.js';
+import { renderTasks } from './render.js';
 
 export const addTask = () => {
   if (!inputElem.value) {
