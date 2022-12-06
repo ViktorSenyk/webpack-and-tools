@@ -1,6 +1,4 @@
-// экспортируйте fetchUser как export по умолчанию
-
-export default async function fetchUser(userId) {
+async function fetchUser(userId) {
   console.log('implementation for fetchUser');
 
   try {
@@ -10,3 +8,5 @@ export default async function fetchUser(userId) {
     throw new Error('Failed to get user data');
   }
 }
+
+export default fetchUser;
